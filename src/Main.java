@@ -1,23 +1,13 @@
 public class Main {
-
+  // Задание 3
     public static void main(String[] args) {
-        int clientOS = 0;
-        int clientDencYear = 2020;
-        if (clientOS == 0) {
-            if (clientDencYear < 2015) {
-                if (clientDencYear < 2015) {
-                    System.out.println ("Установите облегченную версию приложения для iOS по ссылке");
-                } else {
-                    System.out.println ("Установите версию приложения для iOS по ссылке");
-                }
-        } else {
-                    if (clientDencYear < 2015) {
-                        System.out.println ("Установите облегченную версию приложения для Андроид по ссылке");
-                    } else {
-                        System.out.println ("Установите версию приложения для Андроид по ссылке");
 
+        int year = 2021;
 
-                    }      }
-        }
-    }
+        if (year / 4 == 0 && year / 100 != 0 || year / 400 == 0) {
+     System.out.println(year + "является высокосным");
+ } else {
+      System.out.println(year + "не является высокосным");
+}
+}
 }
